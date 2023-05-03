@@ -1,0 +1,52 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  header {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 0;
+  }
+  .logo_juststreamit {
+    margin-right: 0;
+  }
+  header nav {
+    margin-top: 1em;
+    text-align: center;
+  }
+  header nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
+
+/* Medium and large screens */
+@media only screen and (min-width: 601px) {
+  header {
+    height: 300px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-radius: 50px;
+  }
+  .logo_juststreamit {
+    margin-right: 100px;
+  }
+  header nav {
+    margin-top: 0;
+    text-align: left;
+  }
+  header nav a {
+    display: inline-block;
+    margin-right: 50px;
+  }
+}
