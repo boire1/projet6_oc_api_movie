@@ -4,14 +4,14 @@
 projet:6 OC -Développez une interface utilisateur pour une application web Python
 
 
--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Scenario:
 
  Concevoir une interface web qui utilise l'API "OCMovies-API" pour afficher le meilleur film selon le score d'IMDB, 
  une catégorie des sept meilleurs films et trois autres catégories. Lorsqu'un utilisateur clique sur un film, 
  une fenêtre modale doit s'afficher pour afficher l'image  et les informations du film sélectionné.
--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
  
  1 Installation et le mode d'emploi de l'APi se trouve à cette adresse ci dessous:
  https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
