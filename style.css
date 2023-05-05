@@ -179,7 +179,18 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     }
-    
+    #nextAction{ color:blue;
+        
+    }
+    #best_film_btn_info{
+        cursor: pointer;
+    }
+    #nextDrama{
+        color:blue;
+    }
+    #nextComedy{
+        color:blue;
+    }
     .info_modal_text_info {
     text-align: center;
     margin-left: 20px;

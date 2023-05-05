@@ -123,10 +123,10 @@ function makeCategory(category){
   let spanControlNext = document.createElement("span");
   spanControlPrev.setAttribute("id", "prev" + idSection);    
   spanControlPrev.setAttribute("class", "category__prev");
-  spanControlPrev.textContent = "<";
+  spanControlPrev.textContent = "<<";
   spanControlNext.setAttribute("id", "next" + idSection);
   spanControlNext.setAttribute("class", "category__next");
-  spanControlNext.textContent = ">";
+  spanControlNext.textContent = ">>";
   divSlider.appendChild(spanControlPrev);
 
   
