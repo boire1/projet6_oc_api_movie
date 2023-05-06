@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <meta name="projet 6" content="movie Api ">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="projet 6" content="movie Api ">
     <meta name="keywords" content="movie,comedy,action,drama">
-    
+
     <meta name="author" content="Eric Boire">
 
 
 
-    
+
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width:600px)" href="responsive.css">
     <title>JustStreamIt</title>
 </head>
 <body>
-    <h1>JustStreamIt</h1>
+    <!--<h1>JustStreamIt</h1>-->
     <div id="main_block">
         <!-- <<<<<<<<<<<<<<<<<<<<Navigation>>>>>>>>>>>>>>>>>>>> -->
         <header>
@@ -29,7 +29,7 @@
 
         </header>
 
-         <!-- <<<<<<<<<<<<<<<<<<<<Navigation>>>>>>>>>>>>>>>>>>>> -->   
+         <!-- <<<<<<<<<<<<<<<<<<<<Navigation>>>>>>>>>>>>>>>>>>>> -->
 
 
          <section id="best_film">
@@ -38,13 +38,13 @@
             <div id="best_film_info">
 
                 <div class="film_title" id="best_film_title"></div>
-                <button id="best_film_btn_info">Informations</button>
+                <button type="button" id="best_film_btn_info">Informations</button>
                 <h2>Résumé</h2>
                 <p id="best_film_description"></p>
             </div>
 
-         </section>   
-                    
+         </section>
+
 
         <div id="info_modal" class="modal">
             <div class="modal_content">
@@ -58,8 +58,8 @@
                 <div id="info_modal_text">
                     <div class="info_modal_text_info">
 
-                        <span class = info_modal_text_title_info>Genres</span>
-                        <span class = info_modal_text_info_text id="info_modal_text_genres"></span>
+                        <span class="info_modal_text_title_info">Genres</span>
+                        <span class="info_modal_text_info_text" id="info_modal_text_genres"></span>
 
                     </div>
 
@@ -73,8 +73,8 @@
                         <span class="info_modal_text_info_text" id="info_modal_text_rated"></span>
                     </div>
 
-                    <div class="info_modal_text_info">                    
-                        <span class="info_modal_text_title_info">Score IMDB:</span>
+                    <div class="info_modal_text_info">
+                                                <span class="info_modal_text_title_info">Score IMDB:</span>
                         <span class="info_modal_text_info_text" id="info_modal_text_imdb_score"></span>
                     </div>
 
@@ -108,10 +108,7 @@
                         <span class="info_modal_text_info_text" id="info_modal_long_description"></span>
                     </div>
 
-                    
-
-
-                </div>        
+                </div>
 
 
 
